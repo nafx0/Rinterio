@@ -14,6 +14,9 @@
         font-optical-sizing: auto;
         font-style: normal;
         }
+        p {
+            color: #737373;
+        }
     </style>
     <!-- Tailwind+DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -272,10 +275,9 @@
             </div>
           </section>
           <!-- Portfolio section -->
-           <section class="py-10 lg:py-0 mx-10 lg:mx-0">
+           <section class="py-10 lg:py-0 mx-10 lg:mx-0 mb-10">
             <div class="lg:space-x-2 bg-gray-100 rounded-full w-fit px-3 py-2 lg:mt-10 mb-4 mx-auto"><i class="fa-solid fa-arrow-right text-center"></i> Explore our Latest works</div>
             <h3 class="text-4xl font-bold text-center">Our Latest Portfolio</h3>
-            <br>
             <p class="max-w-prose lg:mt-6 text-center mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
             <br>
             <div class="grid grid-cols-1 lg:grid-cols-12 lg:grid-rows-2 lg:max-w-screen-lg lg:mx-auto gap-6">
@@ -288,7 +290,7 @@
                             <a class="flex items-center gap-2 bg-white rounded-full w-auto border-none">View Details<div class="h-8 w-8 rounded-full bg-[#ABEF5F] flex justify-center items-center">
                                 <i class="fa-solid fa-arrow-right -rotate-45"></i>
                             </div></a>
-                    </div>
+                        </div>
                     </div>
                 </div>
                 <div class="p-6 border rounded-3xl flex-col lg:flex-row  gap-6 flex lg:items-center lg:col-span-4">
@@ -306,13 +308,95 @@
                             <a class="flex items-center gap-2 bg-white rounded-full w-auto border-none">View Details<div class="h-8 w-8 rounded-full bg-[#ABEF5F] flex justify-center items-center">
                                 <i class="fa-solid fa-arrow-right -rotate-45"></i>
                             </div></a>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="p-6 border rounded-3xl flex-col lg:flex-row  gap-6 flex lg:items-center lg:col-span-3">
                     <img src="assets/img5.png" alt="">
                 </div>
             </div>
+           </section>
+           <!-- News Section -->
+           <section class="bg-gray-100 pb-10 px-10 pt-10">
+            <div class="max-w-screen-lg mx-auto">
+                <div class="lg:space-x-2 bg-white rounded-full w-fit px-3 py-2 mb-4 mx-auto"><i class="fa-solid fa-arrow-right text-center"></i> 
+                    Rinterio News
+                </div>
+                    <h3 class="text-4xl font-bold text-center">Read Our Articles and News</h3>
+                    <p class="max-w-prose lg:mt-6 text-center mx-auto mb-12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <div class="flex flex-col lg:flex-row gap-6">
+                        <div class="card bg-base-100 px-10">
+                            <figure class="px-10 pt-10">
+                            <img
+                                src="assets/article1.png"
+                                alt=""
+                                class="rounded-xl" />
+                            </figure>
+                            <div class="flex text-center items-center justify-center gap-2 pt-3">
+                                <img width="24" height="24" src="https://img.icons8.com/puffy/32/calendar.png" alt="calendar"/>
+                                <p class="text-sm">July14, 2024</p>
+                                <img width="24" height="24" src="https://img.icons8.com/ios/50/user-male-circle--v1.png" alt="user-male-circle--v1"/>
+                                <p class="text-sm">By Admin</p>
+                            </div>
+                            <div class="card-body items-center text-center">
+                            <h2 class="card-title">How to choose the furniture right  of your home.</h2>
+                            <p>The barn house captivates with its blend of rustic charm and modern. </p>
+                            <div class="lg:w-auto">
+                                <a class="flex items-center gap-2 bg-white rounded-full w-auto border-none">Read More<div class="h-8 w-8 rounded-full bg-[#ABEF5F] flex justify-center items-center">
+                                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                                </div></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card bg-base-100 px-10">
+                            <figure class="px-10 pt-10">
+                            <img
+                                src="assets/article2.png"
+                                alt=""
+                                class="rounded-xl" />
+                            </figure>
+                            <div class="flex text-center items-center justify-center gap-2 pt-3">
+                                <img width="24" height="24" src="https://img.icons8.com/puffy/32/calendar.png" alt="calendar"/>
+                                <p class="text-sm">July14, 2024</p>
+                                <img width="24" height="24" src="https://img.icons8.com/ios/50/user-male-circle--v1.png" alt="user-male-circle--v1"/>
+                                <p class="text-sm">By Admin</p>
+                            </div>
+                            <div class="card-body items-center text-center">
+                            <h2 class="card-title">How to choose the furniture right  of your home.</h2>
+                            <p>The barn house captivates with its blend of rustic charm and modern. </p>
+                            <div class="lg:w-auto">
+                                <a class="flex items-center gap-2 bg-white rounded-full w-auto border-none">Read More<div class="h-8 w-8 rounded-full bg-[#ABEF5F] flex justify-center items-center">
+                                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                                </div></a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card bg-base-100 px-10">
+                            <figure class="px-10 pt-10">
+                            <img
+                                src="assets/article3.png"
+                                alt=""
+                                class="rounded-xl" />
+                            </figure>
+                            <div class="flex text-center items-center justify-center gap-2 pt-3">
+                                <img width="24" height="24" src="https://img.icons8.com/puffy/32/calendar.png" alt="calendar"/>
+                                <p class="text-sm">July14, 2024</p>
+                                <img width="24" height="24" src="https://img.icons8.com/ios/50/user-male-circle--v1.png" alt="user-male-circle--v1"/>
+                                <p class="text-sm">By Admin</p>
+                            </div>
+                            <div class="card-body items-center text-center">
+                            <h2 class="card-title">How to choose the furniture right  of your home.</h2>
+                            <p>The barn house captivates with its blend of rustic charm and modern. </p>
+                            <div class="lg:w-auto">
+                                <a class="flex items-center gap-2 bg-white rounded-full w-auto border-none">Read More<div class="h-8 w-8 rounded-full bg-[#ABEF5F] flex justify-center items-center">
+                                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                                </div></a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
            </section>
     </main>
     <footer>
