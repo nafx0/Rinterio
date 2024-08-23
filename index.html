@@ -17,6 +17,12 @@
         p {
             color: #737373;
         }
+        textarea::placeholder {
+            color: #888;
+            opacity: 1;
+            font-size: 16px;
+            padding-left: 8px;
+        }
     </style>
     <!-- Tailwind+DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -398,6 +404,29 @@
                 </div>
             </div>    
            </section>
+           <!-- Connect Section -->
+            <section class="min-h-screen bg-cover bg-no-repeat px-10" style="background-image: url(assets/bg.jpg);">
+                <div class="pt-10">
+                    <div class="lg:space-x-2 bg-white rounded-full w-fit px-3 py-2 mb-4 mx-auto"><i class="fa-solid fa-arrow-right text-center"></i> 
+                        Let’s Connect
+                    </div>
+                </div>
+                <h3 class="text-4xl font-bold text-center">Let’s Discuss Next Project</h3>
+                <br>
+                <p class="max-w-prose lg:mt-6 text-center mx-auto mb-12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-screen-lg mx-auto px-3">
+                    <input type="text" placeholder="First Name*" class="input-bordered rounded-full px-8 py-5" required/>
+                    <input type="text" placeholder="Last Name*" class="input-bordered rounded-full px-8 py-5" required/>
+                    <input type="text" placeholder="Phone Number*" class="input-bordered rounded-full px-8 py-5" required/>
+                    <input type="text" placeholder="Email Number*" class="input-bordered rounded-full px-8 py-5" required/>
+                    <textarea placeholder="Write your message here" class="input-bordered rounded-2xl px-8 py-5 lg:col-span-2 resize-none" rows="10"></textarea>
+                </div>
+                <div class="flex justify-center w-full mt-10 pb-16">
+                    <a class="btn bg-[#ABEF5F] rounded-full lg:w-4/6 w-full">Send Mail<div class="h-8 w-8 rounded-full bg-[#1C1C1C] flex justify-center items-center">
+                        <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                    </div></a>
+                </div>
+            </section>
     </main>
     <footer>
 
